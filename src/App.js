@@ -8,7 +8,7 @@ const reducer = (state, action) => {
   switch (action.type) {
     case 'ADD_NEW_USER':
       let todo = {
-        id: "54",
+        id: Date.now(),
         title: "gt",
         completed: false
       }
