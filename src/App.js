@@ -2,7 +2,7 @@ import React from 'react'
 import {Provider} from 'react-redux'
 import {createStore} from 'redux'
 import {todos} from './data'
-import Chat from '../components/Chat'
+import Chat from './components/Chat'
 
 const reducer = (state, action) => {
   switch (action.type) {
